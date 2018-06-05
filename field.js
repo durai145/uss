@@ -1,4 +1,4 @@
-(function (require, exports, module) {
+define(function (require, exports, module) {
     "use strict";
     class Field {
         constructor() {
@@ -97,4 +97,4 @@
     }
 
     exports.Field = Field;
-})(require, exports, module);
+});
